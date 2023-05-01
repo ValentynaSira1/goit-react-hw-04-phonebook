@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
 import css from './contactsListItem.module.css';
 
 export const ContactsListItem =({name, number, id, deleteContact}) => {
